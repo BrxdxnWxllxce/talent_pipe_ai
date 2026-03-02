@@ -171,7 +171,7 @@ function App() {
 
     try {
       // Update the candidate status
-      const updatedCandidate = await updateCandidateStatus(id, newStatus);
+      const _updatedCandidate = await updateCandidateStatus(id, newStatus);
       
       // Update the local state
       setCandidates(prev => 
