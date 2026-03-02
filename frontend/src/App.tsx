@@ -445,7 +445,7 @@ function App() {
                           {uploadingId === candidate._id ? (
                             <div className="h-4 w-4 animate-spin rounded-full border-2 border-gray-400 border-t-transparent" />
                           ) : (
-                            <Paperclip className={`h-4 w-4 ${candidate.resumeUrl ? 'text-green-400' : ''}`} />
+                            <Paperclip className={`h-4 w-4 ${candidate.resumeUrl ? 'text-green-500' : 'text-gray-400'}`} />
                           )}
                         </button>
                         <button
