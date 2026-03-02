@@ -1,0 +1,20 @@
+{
+  "name": "talent-pipeline-backend",
+  "version": "1.0.0",
+  "description": "AI-Powered Talent Pipeline API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.8.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.2"
+  }
+}

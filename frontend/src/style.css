@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+html, body, #app {
+  min-height: 100vh;
+}
+
+/* Dark Theme */
+body {
+  background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%);
+  color: #e0e0e0;
+  transition: background 0.3s ease;
+}
+
+/* Glass-like effect for main container */
+.bg-gray-50 {
+  background-color: transparent !important;
+}
+
+/* Glassmorphism styles */
+.glass {
+  background: rgba(30, 30, 46, 0.3);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 31, 51, 0.37);
+}
+
+/* Dark theme overrides */
+.dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 10 20 / var(--tw-bg-opacity));
+  color: #f0f0f0;
+}
+
+/* Table styling for dark theme */
+table {
+  background: rgba(30, 30, 46, 0.3) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Button styling for dark theme */
+.btn-dark {
+  background: rgba(60, 60, 80, 0.5) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+}
+
+/* Input styling for dark theme */
+.input-dark {
+  background: rgba(20, 20, 35, 0.7) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+  color: #e0e0e0 !important;
+}
+
+/* Status badges for dark theme */
+.status-badge {
+  background: rgba(60, 60, 80, 0.5) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(5px) !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+}
+
+/* Modal styling for dark theme */
+.modal-dark {
+  background: rgba(20, 20, 35, 0.9) !important;
+  backdrop-filter: blur(15px) !important;
+  -webkit-backdrop-filter: blur(15px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Hover animations */
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.hover-scale {
+  transition: all 0.2s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.03);
+}
+
+.hover-glow {
+  transition: all 0.3s ease;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+}
+
+/* Button hover effects */
+.btn-hover {
+  transition: all 0.2s ease;
+}
+
+.btn-hover:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Row hover effect */
+.row-hover {
+  transition: all 0.2s ease;
+}
+
+.row-hover:hover {
+  background: rgba(60, 60, 80, 0.3) !important;
+}
+
+/* Smooth transitions */
+.smooth-transition {
+  transition: all 0.3s ease;
+}

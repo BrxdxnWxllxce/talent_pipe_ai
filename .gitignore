@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/uploads/
+
+# Frontend
+frontend/node_modules/
+frontend/.env
+
+# Build / cache
+dist/
+.cache/
+*.log

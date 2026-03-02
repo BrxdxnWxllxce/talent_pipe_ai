@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI-Powered Talent Pipeline</title>
+  </head>
+  <body>
+    <div id="app"><div style="padding: 2rem; font-family: system-ui; text-align: center;" id="loading-msg">Loading...</div></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      setTimeout(function() {
+        var app = document.getElementById('app');
+        var msg = document.getElementById('loading-msg');
+        if (msg && app && app.contains(msg)) {
+          msg.innerHTML = 'React did not start. Open the browser console (F12) for errors, and ensure you run the app with: npm run dev (from the frontend folder), then open the URL shown (e.g. http://localhost:5173).';
+        }
+      }, 3000);
+    </script>
+  </body>
+</html>

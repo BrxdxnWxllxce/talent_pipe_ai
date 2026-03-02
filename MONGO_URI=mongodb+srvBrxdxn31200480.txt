@@ -1,0 +1,7 @@
+MONGO_URI=mongodb+srv://Brxdxn:3120048080Brandon%24@cluster8080.tl0xsdt.mongodb.net/?appName=Cluster8080
+GEMINI_API_KEY=AIzaSyDbRmgUI8PjcYMfgTuDvebnShgfLWSVI2A
+
+
+
+
+%APPDATA%\Cursor\User\globalStorage\storage.json
